@@ -7,21 +7,27 @@
     <title>Pali e dispari</title>
 </head>
 <body>
-    <h1>Palindroma</h1>
-    <label for="word">Inserisci una parola</label>
-    <input id="word" type="text">
-    <input type="submit">
-    <div></div>
-    <h1>Pari e dispari</h1>
-    <select name="" id="">
-        <option value="pari">pari</option>
-        <option value="dispari">dispari</option>
-    </select>
-    <label for="num">Scegli un numero tra 1 e 5</label>
-    <input id="num" type="number">
-    <button id="btn">Gioca</button>
-    <div id="cpu"></div>
-    <div id="risultato"></div>
+    <section id="palindroma">
+        <h1>Palindroma</h1>
+        <label for="word">Inserisci una parola</label>
+        <input id="word" type="text">
+        <input type="submit">
+        <div></div>
+    </section>
+    <section>
+        <h1>Pari e dispari</h1>
+        <label for="even">Pari o dispari?</label>
+        <select name="" id="even">
+            <option value="pari">Pari</option>
+            <option value="dispari">Dispari</option>
+        </select>
+        <label for="num">Scegli un numero tra 1 e 5</label>
+        <input id="num" type="number">
+        <button id="btn">Gioca</button>
+        <div id="cpu"></div>
+        <div id="risultato"></div>
+    </section>
+    <!-- link js -->
     <script src="script.js"></script>
 </body>
 </html>

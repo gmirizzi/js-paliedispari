@@ -10,12 +10,7 @@ function isPalindroma(word){
         i++;
         j--;
     }
-    
-    if (check == false) {
-        return false;
-    } else {
-        return true;
-    }
+    return check;
 }
 
 function randomNumber(min, max) {
